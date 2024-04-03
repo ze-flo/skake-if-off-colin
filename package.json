@@ -12,8 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@zendeskgarden/react-buttons": "^8.75.0",
-    "@zendeskgarden/react-typography": "^8.75.0",
+    "@zendeskgarden/react-buttons": "file:zendeskgarden-react-buttons-8.75.0.tgz",
+    "@zendeskgarden/react-typography": "file:zendeskgarden-react-typography-8.75.0.tgz",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "styled-components": "^5.3.11"
