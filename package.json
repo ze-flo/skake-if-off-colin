@@ -1,0 +1,26 @@
+{
+  "name": "tree-shaking-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "report:before": "webpack --profile --json > stats.json && webpack-bundle-analyzer stats.json ./dist -m static -r before.html",
+    "report:after": "webpack --profile --json > stats.json && webpack-bundle-analyzer stats.json ./dist -m static -r after.html"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zendeskgarden/react-buttons": "^8.75.0",
+    "@zendeskgarden/react-typography": "^8.75.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.11"
+  },
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-bundle-analyzer": "^4.10.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
